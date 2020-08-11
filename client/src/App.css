@@ -1,0 +1,101 @@
+html,
+body {
+  font-size: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: rgb(245, 245, 245);
+  box-sizing: border-box;
+}
+.container {
+  margin: 10% auto 0px auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #00e676;
+}
+a:visited {
+  color: #f29494;
+}
+
+/*Card title*/
+span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock {
+  font-size: 1.5rem;
+}
+
+
+
+/*loader*/
+
+.loader {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*loader on user page*/
+.marginTop {
+  margin-top: 10%;
+}
+/*post plant*/
+#select-label {
+  margin-top: 1rem;
+}
+.MuiDialogContent-root > form > div:nth-child(2) > div {
+  margin-right: 3rem;
+}
+
+.MuiDialogContent-root > form > div:nth-child(2) > div > input,
+.MuiDialogContent-root > form > div:nth-child(3) > div > input {
+  padding-right: 2rem;
+}
+
+/*Comment*/
+#root
+  > div
+  > div.container
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div.MuiCardContent-root.makeStyles-comment-26 {
+  padding-bottom: 0px;
+}
+#root
+  > div
+  > div.container
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div.MuiCardContent-root.makeStyles-comment-26
+  > button {
+  padding: 0.2em;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    margin-top: 44%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    margin-top: 57%;
+  }
+}
