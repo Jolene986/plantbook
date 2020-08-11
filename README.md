@@ -10,3 +10,5 @@ You can see the live version at https://plantbook-7d437.web.app/  ,
 and if you want to log in you can use the following credentials:
 email:  new@email.com
 password: new123
+
+* I you clone this repo you will need to enter your Firebase configuration.
